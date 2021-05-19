@@ -1,0 +1,14 @@
+[package]
+name = "coins"
+version = "0.1.0"
+authors = ["Alexaner Muraviov <josquin1983@mail.ru>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+"libcoin" = {path = "../libcoin"} 
+
+"data_fromfilelib" = {path = "../data_fromfilelib"}
+
